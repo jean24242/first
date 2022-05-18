@@ -1,0 +1,5 @@
+const creatCompliment = function(firstName, message){
+    return`${firstName}: ${message}`;
+}
+creatCompliment("현석","아주멋져요");
+console.log(creatCompliment("현석","아주멋져요"));
